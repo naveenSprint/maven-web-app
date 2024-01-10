@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_naveenSprint_maven_web_app_1704899977105-pr-trigger-input-set
+  identifier: Build_naveenSprint_maven_web_app_1704899977105prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: DevSecOps
+  pipeline:
+    identifier: Build_naveenSprint_maven_web_app_1704899977105
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
